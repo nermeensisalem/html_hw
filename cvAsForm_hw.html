@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Cv as form</title>
+</head>
+<body>
+	<form method="post">
+		<fieldset>
+			<legend><h1>Personal CV</h1></legend>
+			<p>
+				<strong>Go to </strong>
+				<a href="#img">Personal picture</a>
+				<a href="#info">Personal information</a>
+				<a href="#edu">Educational information</a>
+				<a href="#favorites">Favorites</a>
+			</p>
+			<fieldset>
+				<p>
+					<strong>Go to </strong>
+					<a href="#img">Personal picture</a>
+					<a href="#info">Personal information</a>
+					<a href="#edu">Educational information</a>
+					<a href="#favorites">Favorites</a>
+				</p>
+				<legend id="img"><h3>Personal picture</h3></legend>
+				<input type="file" name="choosefile">
+			</fieldset>
+			<fieldset>
+				<p>
+					<strong>Go to </strong>
+					<a href="#img">Personal picture</a>
+					<a href="#info">Personal information</a>
+					<a href="#edu">Educational information</a>
+					<a href="#favorites">Favorites</a>
+				</p>
+				<legend id="info"><h3>Personal information</h3></legend>
+				<label>First name:
+					<input type="text" name="fist" placeholder="First name">
+				</label><br><br>
+				<label>Middle name:
+					<input type="text" name="mid" placeholder="Middle name">
+				</label><br><br>
+				<label>Last name:
+					<input type="text" name="last" placeholder="Last name">
+				</label><br><br>
+				<label>Date of birth:
+					<input type="date" name="DOB">
+				</label><br><br>
+				<label>Place of resident:
+					<input type="text" name="country" placeholder="United kingdom">
+				</label><br><br>
+				<label>Email:
+					<input type="email" name="email" placeholder="name@domain.com">
+				</label><br><br>
+				<label>Phone no.:
+					<input type="tel" name="phone" maxlength="10" placeholder="0000-000-000">
+				</label>
+			</fieldset>
+			<fieldset>
+				<p>
+					<strong>Go to </strong>
+					<a href="#img">Personal picture</a>
+					<a href="#info">Personal information</a>
+					<a href="#edu">Educational information</a>
+					<a href="#favorites">Favorites</a>
+				</p>
+				<legend id="#edu"><h3>Educational information</h3></legend>
+				<label>High school:
+					<input type="text" placeholder="enter your high school">
+				</label>
+				<label>GPA:
+					<input type="number" placeholder="enter your GPA">
+				</label><br><br>
+				<label>University:
+					<input type="text" placeholder="enter your University name">
+				</label><br><br>
+				<label>Major:
+					<select>
+						<option>select your major</option>
+						<option>IT</option>
+						<option>Buisness adminstration</option>
+						<option>Medicine</option>
+						<option>Education</option>
+					</select>
+			</fieldset>
+			<fieldset>
+				<p>
+					<strong>Go to </strong>
+					<a href="#img">Personal picture</a>
+					<a href="#info">Personal information</a>
+					<a href="#edu">Educational information</a>
+					<a href="#favorites">Favorites</a>
+				</p>
+				<legend id="favorites"><h3>Favorites</h3></legend>
+				<h3>Favorite teams</h3>
+				<label>Real madrid
+					<input type="checkbox" name="teams" value="Real madrid">
+				</label>
+				<label>Barcelona
+					<input type="checkbox" name="teams" value="Barcelona">
+				</label>
+				<label>Man united
+					<input type="checkbox" name="teams" value="Man united">
+				</label>
+				<label>NBA
+					<input type="checkbox" name="teams" value="NBA">
+				</label>
+				<label>Los angelos
+					<input type="checkbox" name="teams" value="Los angelos">
+				</label><hr>
+				<h3>Favorite sites:</h3>
+				<label>Al aqsa
+					<input type="checkbox" name="sites" value="Al aqsa">
+				</label>
+				<label>wikipedia
+					<input type="checkbox" name="sites" value="wikipedia">
+				</label>
+				<label>temblur
+					<input type="checkbox" name="sites" value="temblur">
+				</label>
+				<label>pintrest
+					<input type="checkbox" name="sites" value="pintrest">
+				</label>
+				<label>BBC news
+					<input type="checkbox" name="sites" value="BBC news">
+				</label>
+			</fieldset><br>
+			<input type="submit" name="Submit">
+			<input type="reset" name="Clear">
+		</fieldset>
+	</form>
+
+</body>
+</html>
